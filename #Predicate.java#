@@ -1,0 +1,9 @@
+import java.util.jar.*;
+import java.util.regex.*;
+public static void main(){
+System.out.println("hellO");
+System.exit(0);
+}
+    public interface Predicate<T>{
+  boolean test(T t);
+}
