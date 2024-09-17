@@ -8,7 +8,7 @@ import java.sql.*;
 class driverdemo{
 public static void main(String[] args) throws Exception{
 
-  String driverName="org.gjt.mm.mysql.Driver";
+  String driverName="com.mysql.cj.jdbc.Driver";
   Class driverClass=Class.forName(driverName);
   DriverManager.registerDriver((Driver)driverClass.newInstance());
 
