@@ -1,0 +1,21 @@
+package generic;
+import java.util.*;
+
+
+class CanNotAdd{
+  public Integer (Collection<? extends Integer> ints){
+	Integer sum=new Integer(0);
+	for(Integer i : ints) sum=sum+i;
+	return sum;
+  }
+
+
+  public static void main(String[] args){
+	List<Integer> ints=new ArrayList<Integer>();
+	ints.add(1);
+	ints.add(2);
+	List<? extends Integer> nums=ints;
+    double db1=sum(nums);
+	nums.add(3.14);
+  }
+}
