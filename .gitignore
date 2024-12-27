@@ -1,7 +1,0 @@
-.gitignore
-*.class
-.vscode
-.vstags
-.jython_cache 
-\#*\#
-.\#*

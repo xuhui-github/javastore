@@ -1,4 +1,0 @@
-@xuhui-HP:~/java/mysql$ java -cp .:/usr/share/java/mysql-connector-java-5.1.38.jar getConnection
-❯ java -cp /usr/share/java/mysql-connector-java-8.0.30.jar:/home/xuhui/javastore mysql.driverdemo
-
-
